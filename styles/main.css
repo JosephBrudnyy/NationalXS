@@ -198,12 +198,14 @@ section{
 
 .comfort{
     background-image: url(..//img/comfort-bg.jpg);
+    position: relative;
 }
 .comfort__inner{
     margin-left: auto;
     text-align: right;
     max-width: 520px;
     padding-top: 75px;
+   
 }
 .comfort__title{
     font-family: 'Sitka';
@@ -717,9 +719,9 @@ section{
         margin-right: auto;
         text-align: center;
     }
-    .comfort{
+    /* .comfort{
         background-image: url(..//img/comfort-bgMobile.jpg);
-    }
+    } */
 }
 @media(max-width: 685px){
     .advantages__item-img{
@@ -729,7 +731,7 @@ section{
 }
 @media(max-width: 685px){
     .top{
-        background-image: url(..//img/top-bg720px.jpg);
+        background-image: url(..//img/top-bgMobile.jpg)
     }
 }
 @media(max-width: 565px){
@@ -874,9 +876,6 @@ section{
     }
 }
 @media(max-width: 400px){
-    .top{
-        background-image: url(..//img/top-bgMobile.jpg);
-    }
     .modes{
         background-image: url(..//img/features-bgMobile.jpg);
     }
